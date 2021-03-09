@@ -92,6 +92,7 @@ module JavaBuildpack
       def add_relational_resource(service, resources)
         resource = REXML::XPath.match(resources, "//*[@id = 'jdbc/#{service['name']}']").first
         if resource.nil?
+          @logger.debug { "  Adding resource element for: #{service['name']}" }
           resource = resources.add_element 'Resource',
                                            'id' => "jdbc/#{service['name']}",
                                            'type' => 'DataSource'
