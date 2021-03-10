@@ -78,8 +78,6 @@ module JavaBuildpack
         @application.services.each do |service|
           if (service['tags'].include? 'relational') || service['tags'].include? 'object-relational') ||  well_known_jdbc_schema?(service['credentials'])
             add_relational_resource service, resources
-          else 
-            @logger.warn { "  No relational service found in environment" }
           end
         end
       end
