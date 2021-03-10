@@ -76,7 +76,7 @@ module JavaBuildpack
 
       def relational_services_as_resources(resources)
         @application.services.each do |service|
-          if (service['tags'].include? 'relational') || service['tags'].include? 'object-relational') ||  well_known_jdbc_schema?(service['credentials'])
+          if (service['tags'].include? 'relational') || (service['tags'].include? 'object-relational') ||  well_known_jdbc_schema?(service['credentials'])
             add_relational_resource service, resources
           end
         end
