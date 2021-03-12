@@ -39,7 +39,50 @@
 -->
   <!-- Activate those lines to get access to TomEE GUI if added (tomee-webaccess) -->
  
-  <role rolename="admin"/>
-  <user password="pw" roles="admin" username="ADMIN"/>
+ 	<role rolename="difa"/>
+	<user username="TWT_USER" password="DifaTest00!" roles="difa"/>
+	<user username="DAI_DM_00" password="DifaDev00!" roles="difa"/>
+	<user username="DAI_DM_01" password="DifaDev01!" roles="difa"/>
+	<user username="DAI_DM_02" password="DifaDev02!" roles="difa"/>
+  <user username="brommel" password="!As812u3" roles="difa"/>
+	<user username="muendlj" password="DifaM37P!" roles ="difa"/>
+	<user username="bss16" password="DifaA24S!" roles ="difa"/>
+  <user username="sanjako" password="DifaO33m!" roles="difa"/>
+	<user username="haeusju" password="DifaR27b!" roles="difa"/>
+	<user username="mstraec" password="DifaH08r!" roles="difa"/>
+	<user username="wiechmi" password="DifaE74a!" roles="difa"/>
+	<user username="rkaatz" password="DifaW56f!" roles="difa"/>
+	<user username="holburr" password="DifaC34k!" roles="difa"/>
+	<user username="brommel" password="DifaC32m!" roles="difa"/>
+	<user username="faschm1" password="DifaX54b!" roles="difa"/>
+	<role rolename="c4a"/>
+	<user username="c4apoweruser" password="c4adev19" roles="c4a"/>
+	<user username="c4aadmin" password="c4adev19" roles="c4a"/>
+	<user username="c4auser" password="c4adev19" roles="c4a"/>
+	
+	<role rolename= "worker"/>
+	<role rolename= "admin"/>
+ 
+	<user username= "AN050" password= "pw" roles= "worker"/>
+	<user username= "AN065" password= "pw" roles= "worker"/>
+	<user username= "PR" password= "pw" roles= "worker"/>
+	<user username= "RED" password= "pw" roles= "worker"/>
+	<user username= "PA065" password= "pw" roles= "worker"/>
+	<user username= "ADMIN" password= "pw" roles= "admin"/>
+ 
+	<user username= "twtuser" password= "pw" roles= "worker"/>
+	<user username= "twthandler" password= "pw" roles= "worker"/>
+	<user username= "twtadmin" password= "pw" roles= "admin"/>
+	<user username= "prouser" password= "pw" roles= "worker"/>
+	<user username= "prohandler" password= "pw" roles= "worker"/>
+	<user username= "proadmin" password= "pw" roles= "admin"/>
+	
+	<user username= "MBROMKA" password= "pw" roles= "admin"/>
+	<user username= "DTERRES" password= "pw" roles= "admin"/>
+	<user username= "GRIEDEL" password= "pw" roles= "admin"/>
+	<user username= "A2088" password= "pw" roles= "admin"/>
+	<user username= "VGRTNER" password= "pw" roles= "admin"/>
+	<user username= "CHMUEGG" password= "pw" roles= "admin"/>
+	<user username= "VBAREIS" password= "pw" roles= "admin"/>
  
   </tomcat-users>
