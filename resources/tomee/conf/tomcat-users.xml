@@ -14,7 +14,8 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
---><tomcat-users version="1.0" xmlns="http://tomcat.apache.org/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd">
+-->
+<tomcat-users version="1.0" xmlns="http://tomcat.apache.org/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd">
 <!--
   NOTE:  By default, no user is included in the "manager-gui" role required
   to operate the "/manager/html" web application.  If you wish to use this app,
@@ -44,10 +45,10 @@
 	<user username="DAI_DM_00" password="DifaDev00!" roles="difa"/>
 	<user username="DAI_DM_01" password="DifaDev01!" roles="difa"/>
 	<user username="DAI_DM_02" password="DifaDev02!" roles="difa"/>
-  <user username="brommel" password="!As812u3" roles="difa"/>
+        <user username="brommel" password="!As812u3" roles="difa"/>
 	<user username="muendlj" password="DifaM37P!" roles ="difa"/>
 	<user username="bss16" password="DifaA24S!" roles ="difa"/>
-  <user username="sanjako" password="DifaO33m!" roles="difa"/>
+        <user username="sanjako" password="DifaO33m!" roles="difa"/>
 	<user username="haeusju" password="DifaR27b!" roles="difa"/>
 	<user username="mstraec" password="DifaH08r!" roles="difa"/>
 	<user username="wiechmi" password="DifaE74a!" roles="difa"/>
