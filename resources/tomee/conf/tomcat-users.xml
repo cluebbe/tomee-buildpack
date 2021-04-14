@@ -85,5 +85,16 @@
 	<user username= "VGRTNER" password= "pw" roles= "admin"/>
 	<user username= "CHMUEGG" password= "pw" roles= "admin"/>
 	<user username= "VBAREIS" password= "pw" roles= "admin"/>
+	
+	<user username= "TTAMSON" password= "pw" roles= "worker"/>
+        <user username= "CGORSCH" password= "pw" roles= "worker"/>
+        <user username= "AXEREKE" password= "pw" roles= "worker"/>
+        <user username= "MBOJANO" password= "pw" roles= "worker"/>
+        <user username= "KLINGEA" password= "pw" roles= "worker"/>
+        <user username= "IWOLFER" password= "pw" roles= "worker"/>
+        <user username= "SASCHA5" password= "pw" roles= "worker"/>
+        <user username= "SCHOST1" password= "pw" roles= "worker"/>
+        <user username= "EWSCHUB" password= "pw" roles= "worker"/>
+        <user username= "THOKELL" password= "pw" roles= "worker"/>
  
   </tomcat-users>
